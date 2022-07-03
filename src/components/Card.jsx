@@ -5,8 +5,10 @@ function Card() {
   return (
     <div className="card">
       <img className="card-image" src={newyork} alt="newyork" />
-      <h1 className="card-title">Card heading</h1>
-      <p className="card-desc">card description</p>
+      <div className="card-text">
+        <h1 className="card-title">Card heading</h1>
+        <p className="card-desc">card description</p>
+      </div>
     </div>
   );
 }
