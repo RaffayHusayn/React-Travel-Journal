@@ -1,0 +1,26 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 500px;
+  height: auto;
+  border: solid 2px limegreen;
+}
+
+.card-image {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  object-fit: cover;
+  border: solid 2px yellow;
+}
+.card-title {
+  padding: 0;
+  margin: 0;
+  border: solid 2px red;
+}
+.card-desc {
+  padding: 0;
+  margin: 0;
+  border: solid 2px pink;
+}
