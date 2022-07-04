@@ -63,6 +63,7 @@
 .location-country {
   letter-spacing: 0.3em;
   margin-left: 5px;
+  text-transform: uppercase;
 }
 .location-link {
   color: grey;
