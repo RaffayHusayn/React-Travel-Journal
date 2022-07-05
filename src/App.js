@@ -1,14 +1,10 @@
 import "./App.css";
-import Card from "./components/Card";
-import Locations from "./data/CardData";
+import CardHolder from "./components/CardHolder";
 
 function App() {
   return (
     <div className="App">
-      {Locations.map((location) => (
-        <Card {...location} />
-      ))}
-      <p> new project</p>
+      <CardHolder />
     </div>
   );
 }
